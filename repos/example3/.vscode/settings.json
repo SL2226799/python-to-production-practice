@@ -1,0 +1,25 @@
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "black-formatter.args": [
+        "--line-length","79"
+    ],
+    "pylint.enabled": true,
+    "pylint.args":["--disable=missing-function-docstring"],
+    "flake8.args":["--ignore=F821"],
+    "[python]": {
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+  },
+  "isort.args":["--profile", "black"],
+
+    "editor.formatOnSave": true,
+    "editor.rulers": {
+        "color": "lightblue",
+        "column": 79,
+    },
+    {
+        "color": "lightred",
+        "column": 99,
+    }
+}
